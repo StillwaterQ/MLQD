@@ -9,7 +9,7 @@ The circuits come from two ways: 1. [QASMbench](https://github.com/pnnl/QASMBenc
 MLQD contains five folders correspond to the following five hardward architectures.
 
 
-<img src="[sycamore](https://github.com/user-attachments/assets/b883a3c4-9a61-4847-8855-aea73f7f3421)" alt="示例图片" width="500"/>
+<img src="https://github.com/user-attachments/assets/b883a3c4-9a61-4847-8855-aea73f7f3421" alt="示例图片" width="500"/>
 <br>
 <em>Sycamore</em>
 
