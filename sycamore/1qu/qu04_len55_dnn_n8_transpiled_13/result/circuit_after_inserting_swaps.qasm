@@ -1,0 +1,117 @@
+OPENQASM 2.0;
+include "qelib1.inc";
+qreg q[54];
+creg c[54];
+
+// moment 0
+h q[34];
+h q[41];
+h q[0];
+
+// moment 1
+h q[34];
+h q[41];
+h q[0];
+
+// moment 2
+h q[34];
+h q[41];
+
+// moment 3
+cx q[41], q[34];
+
+// moment 4
+h q[41];
+h q[0];
+
+// moment 5
+h q[41];
+
+// moment 6
+h q[41];
+h q[0];
+
+// moment 7
+cx q[34], q[41];
+
+// moment 8
+h q[34];
+h q[41];
+h q[0];
+
+// moment 9
+h q[41];
+cx q[6], q[0];
+
+// moment 10
+cx q[34], q[41];
+
+// moment 11
+h q[34];
+h q[0];
+
+// moment 12
+h q[34];
+h q[6];
+h q[0];
+
+// moment 13
+h q[34];
+h q[41];
+h q[6];
+
+// moment 14
+h q[34];
+h q[41];
+h q[6];
+
+// moment 15
+h q[34];
+h q[41];
+h q[6];
+h q[0];
+
+// moment 16
+cx q[41], q[34];
+
+// moment 17
+h q[41];
+
+// moment 18
+h q[41];
+
+// moment 19
+h q[41];
+
+// moment 20
+cx q[34], q[41];
+
+// moment 21
+h q[34];
+h q[41];
+h q[6];
+
+// moment 22
+h q[34];
+h q[41];
+cx q[0], q[6];
+
+// moment 23
+h q[34];
+h q[41];
+h q[0];
+
+// moment 24
+h q[34];
+h q[41];
+
+// moment 25
+h q[34];
+h q[41];
+h q[0];
+
+// measurement
+measure q[34]->c[0];
+measure q[41]->c[1];
+measure q[0]->c[2];
+measure q[6]->c[3];
