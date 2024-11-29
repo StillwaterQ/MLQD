@@ -31,12 +31,13 @@ Our circuits are mainly derived from smaller sized circuits in [QASMbench](https
 The dataset contains five folders corresponding to results run on each of the five aforementioned hardware architectures. For each hardware architecture, the internal folder qasmbench corresponds to the mapping results of the quantum circuits in the QASMbench, and folders named 1qu and only2qu are the mapping results of the circuits that have been processed by the method of enhancing quantum circuit datasets.
 
 For example, the circuit adder_n4_transpiled in QASMbench corresponds to the following tree structure:
-
+```plaintext
 adder_n4_transpiled
 │  adder_n4_transpiled.json	# contains information of depth and swap number infomation
 │  adder_n4_transpiled.qasm     #  circuit before qubit mapping
 │
 └─result
-        circuit_after_inserting_swaps.qasm	# circuit after qubit mapping 
+        circuit_after_inserting_swaps.qasm	# circuit after qubit mapping
+```
 
  
