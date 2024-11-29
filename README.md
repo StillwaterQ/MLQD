@@ -1,33 +1,42 @@
 # MLQD: A Machine Learning Quantum Dataset
-Qubit Mapping is a process of quantum compilation which aims to map quantum circuits to real quantum devices, however, current solver-based qubit mapping method MLQD is a machine learning quantum dataset for accelerating Qubit Mapping process.
 
-Our dataset contains multiple qubit mapping result using [OLSQ2](https://github.com/WanHsuanLin/OLSQ2).
-
-The circuits come from two ways: 1. [QASMbench](https://github.com/pnnl/QASMBench) and 2. our method for enhancing quantum circuit. 
+Qubit mapping is a key step in quantum compilation, where quantum circuits are mapped onto physical quantum devices. However, existing mapping techniques, especially solver-based approaches, face challenges such as slow solving times, often caused by issues like redundant search iterations. To tackle this, MLQD, a machine learning quantum dataset, has been developed to help overcome these performance bottlenecks.
 
 ## Dataset Content
-MLQD contains five folders correspond to the following five hardward architectures.
+
+The MLQD contains various quantum circuits and their post-mapping circuits obtained by [OLSQ2](https://github.com/WanHsuanLin/OLSQ2). We ran the algorithm on several quantum computer architectures and compiled the results, including: Sycamore, IBM Rochester, Aspen-4, IBM Melbourne and a 5x5 grid hardware architecture.
+
+MLQD contains five folders correspond to the following five hardware architectures.
 
 
-<img src="https://github.com/user-attachments/assets/b883a3c4-9a61-4847-8855-aea73f7f3421" alt="示例图片" width="300"/>
+<p align = "center">    
+<img  src="https://github.com/user-attachments/assets/34518672-89d4-48d8-9702-e6b958f36d27" width="200" />
+<img  src="https://github.com/user-attachments/assets/d3678d43-96ef-4eb2-85f1-5f37f055d765" width="200" />
+<img  src="https://github.com/user-attachments/assets/4f764ed7-7770-4c10-8f71-3fb30b369a6b" width="200" />
 <br>
-<em>Sycamore</em>
+Sycamore, IBM Rochester and Aspen-4
+</p>
 
-<img src="https://github.com/user-attachments/assets/6e117a25-56d2-41fe-9a4b-247255bbc445" alt="示例图片" width="300"/>
+<p align = "center">    
+<img  src="https://github.com/user-attachments/assets/2a471efe-469f-493e-898f-07ae622e6efa" width="200" />
+<img  src="https://github.com/user-attachments/assets/dac400ba-c445-458f-b0eb-db1c5105ae92" width="200" />
 <br>
-<em>IBM Rochester</em>
+IBM Melbourne, 5x5 Grid
+</p>
 
+Our circuits are mainly derived from smaller sized circuits in [QASMbench](https://github.com/pnnl/QASMBench), in addition to circuits obtained by the proposed method of enhancing quantum circuit datasets.
 
-<img src="https://github.com/user-attachments/assets/d37ee300-571a-4869-baf4-796a8deaf7a8" alt="示例图片" width="300"/>
-<br>
-<em>Aspen-4</em>
+## Dataset Structure
 
+The dataset contains five folders corresponding to results run on each of the five aforementioned hardware architectures. For each hardware architecture, the internal folder qasmbench corresponds to the mapping results of the quantum circuits in the QASMbench, and folders named 1qu and only2qu are the mapping results of the circuits that have been processed by the method of enhancing quantum circuit datasets.
 
-<img src="https://github.com/user-attachments/assets/62aa30a5-6c71-4b4f-a1ca-f6146d526a15" alt="示例图片" width="300"/>
-<br>
-<em>IBM Melbourne</em>
+For example, the circuit adder_n4_transpiled in QASMbench corresponds to the following tree structure:
 
+adder_n4_transpiled
+│  adder_n4_transpiled.json	# contains information of depth and swap number infomation
+│  adder_n4_transpiled.qasm     #  circuit before qubit mapping
+│
+└─result
+        circuit_after_inserting_swaps.qasm	# circuit after qubit mapping 
 
-<img src="https://github.com/user-attachments/assets/032b3ba3-fc46-438d-91df-ff9ebe430a73" alt="示例图片" width="300"/>
-<br>
-<em>5x5 grid</em>
+ 
