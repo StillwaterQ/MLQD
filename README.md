@@ -14,14 +14,14 @@ MLQD contains five folders correspond to the following five hardware architectur
 <img  src="https://github.com/user-attachments/assets/d3678d43-96ef-4eb2-85f1-5f37f055d765" width="200" />
 <img  src="https://github.com/user-attachments/assets/4f764ed7-7770-4c10-8f71-3fb30b369a6b" width="200" />
 <br>
-Sycamore, IBM Rochester and Aspen-4
+         Sycamore               IBM Rochester               Aspen-4
 </p>
 
 <p align = "center">    
-<img  src="https://github.com/user-attachments/assets/2a471efe-469f-493e-898f-07ae622e6efa" width="200" />
-<img  src="https://github.com/user-attachments/assets/dac400ba-c445-458f-b0eb-db1c5105ae92" width="200" />
+<img  src="https://github.com/user-attachments/assets/2a471efe-469f-493e-898f-07ae622e6efa" width="350" />
+<img  src="https://github.com/user-attachments/assets/dac400ba-c445-458f-b0eb-db1c5105ae92" width="150" />
 <br>
-IBM Melbourne, 5x5 Grid
+                  IBM Melbourne               5x5 Grid
 </p>
 
 Our circuits are mainly derived from smaller sized circuits in [QASMbench](https://github.com/pnnl/QASMBench), in addition to circuits obtained by the proposed method of enhancing quantum circuit datasets.
