@@ -1,2 +1,2 @@
 # MLQMD
-MLDQ A Machine Learning Qubit Mapping Dataset
+MLQMD A Machine Learning Qubit Mapping Dataset
