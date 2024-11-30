@@ -21,7 +21,7 @@ Coupling graphs of IBM Melbourne and 5x5 grid is as follows.
     <img  src="https://github.com/user-attachments/assets/dac400ba-c445-458f-b0eb-db1c5105ae92" width="140" />
 </p>
 
-Our circuits are mainly derived from smaller sized circuits in [QASMbench](https://github.com/pnnl/QASMBench), in addition to circuits obtained by the proposed method of enhancing quantum circuit datasets.
+Our circuits are derived from smaller sized circuits in [QASMbench](https://github.com/pnnl/QASMBench) and the circuits obtained by the proposed method of enhancing quantum circuit datasets.
 ## Dataset Structure
 
 The dataset contains five folders corresponding to results run on each of the five aforementioned hardware architectures. For each hardware architecture, the internal folder qasmbench corresponds to the mapping results of the quantum circuits in the QASMbench, and folders named 1qu and only2qu are the mapping results of the circuits that have been processed by the method of enhancing quantum circuit datasets.
