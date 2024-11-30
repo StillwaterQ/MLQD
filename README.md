@@ -10,15 +10,18 @@ MLQD contains five folders correspond to the following five hardware architectur
 
 Coupling graphs of Sycamore, IBM Rochester and Aspen-4 is as follows.
 <p align="center">    
-    <img src="https://github.com/user-attachments/assets/34518672-89d4-48d8-9702-e6b958f36d27" width="200" style="margin-right: 100px;" />
-    <img src="https://github.com/user-attachments/assets/d3678d43-96ef-4eb2-85f1-5f37f055d765" width="200" style="margin-right: 100px;" />
+    <img src="https://github.com/user-attachments/assets/34518672-89d4-48d8-9702-e6b958f36d27" width="200" />
+    &nbsp;&nbsp;&nbsp;
+    <img src="https://github.com/user-attachments/assets/d3678d43-96ef-4eb2-85f1-5f37f055d765" width="200" />
+    &nbsp;&nbsp;&nbsp;
     <img src="https://github.com/user-attachments/assets/4f764ed7-7770-4c10-8f71-3fb30b369a6b" width="200" />
 </p>
 
 Coupling graphs of IBM Melbourne and 5x5 grid is as follows.
 <p align = "center">    
-<img  src="https://github.com/user-attachments/assets/2a471efe-469f-493e-898f-07ae622e6efa" width="350" />
-<img  src="https://github.com/user-attachments/assets/dac400ba-c445-458f-b0eb-db1c5105ae92" width="150" />
+    <img  src="https://github.com/user-attachments/assets/2a471efe-469f-493e-898f-07ae622e6efa" width="350" />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img  src="https://github.com/user-attachments/assets/dac400ba-c445-458f-b0eb-db1c5105ae92" width="150" />
 </p>
 
 Our circuits are mainly derived from smaller sized circuits in [QASMbench](https://github.com/pnnl/QASMBench), in addition to circuits obtained by the proposed method of enhancing quantum circuit datasets.
