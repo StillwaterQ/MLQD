@@ -9,11 +9,9 @@ The MLQD contains various quantum circuits and their post-mapping circuits obtai
 MLQD contains five folders correspond to the following five hardware architectures.
 
 Coupling graphs of Sycamore, IBM Rochester and Aspen-4 is as follows.
-<p align="center">    
+<p align="center" style="display: flex; justify-content: center; gap: 20px;">
     <img src="https://github.com/user-attachments/assets/34518672-89d4-48d8-9702-e6b958f36d27" width="200" />
-    &nbsp;&nbsp;&nbsp;
     <img src="https://github.com/user-attachments/assets/d3678d43-96ef-4eb2-85f1-5f37f055d765" width="200" />
-    &nbsp;&nbsp;&nbsp;
     <img src="https://github.com/user-attachments/assets/4f764ed7-7770-4c10-8f71-3fb30b369a6b" width="200" />
 </p>
 
