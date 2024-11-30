@@ -14,18 +14,14 @@ Coupling graphs of Sycamore, IBM Rochester and Aspen-4 is as follows.
 <img  src="https://github.com/user-attachments/assets/d3678d43-96ef-4eb2-85f1-5f37f055d765" width="200" />
 <img  src="https://github.com/user-attachments/assets/4f764ed7-7770-4c10-8f71-3fb30b369a6b" width="200" />
 </p>
-
-
-
 Coupling graphs of IBM Melbourne and 5x5 grid is as follows.
 <p align = "center">    
-    <img  src="https://github.com/user-attachments/assets/2a471efe-469f-493e-898f-07ae622e6efa" width="350" />
+    <img  src="https://github.com/user-attachments/assets/2a471efe-469f-493e-898f-07ae622e6efa" width="200" />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img  src="https://github.com/user-attachments/assets/dac400ba-c445-458f-b0eb-db1c5105ae92" width="150" />
 </p>
 
 Our circuits are mainly derived from smaller sized circuits in [QASMbench](https://github.com/pnnl/QASMBench), in addition to circuits obtained by the proposed method of enhancing quantum circuit datasets.
-
 ## Dataset Structure
 
 The dataset contains five folders corresponding to results run on each of the five aforementioned hardware architectures. For each hardware architecture, the internal folder qasmbench corresponds to the mapping results of the quantum circuits in the QASMbench, and folders named 1qu and only2qu are the mapping results of the circuits that have been processed by the method of enhancing quantum circuit datasets.
