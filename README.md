@@ -26,7 +26,7 @@ Our circuits are derived from smaller sized circuits in [QASMbench](https://gith
 
 The dataset contains five folders corresponding to results run on each of the five aforementioned hardware architectures. For each hardware architecture, the internal folder qasmbench corresponds to the mapping results of the quantum circuits in the QASMbench, and folders named 1qu and only2qu are the mapping results of the circuits that have been processed by the method of enhancing quantum circuit datasets.
 
-For example, the circuit adder_n4_transpiled in QASMbench corresponds to the following tree structure:
+For example, the sample adder_n4_transpiled in QASMbench has the following tree structure:
 ```plaintext
 adder_n4_transpiled
 │  adder_n4_transpiled.json	# depth and swap number infomation
