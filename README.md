@@ -29,7 +29,7 @@ The dataset contains five folders corresponding to results run on each of the fi
 For example, the circuit adder_n4_transpiled in QASMbench corresponds to the following tree structure:
 ```plaintext
 adder_n4_transpiled
-│  adder_n4_transpiled.json	# contains information of depth and swap number infomation
+│  adder_n4_transpiled.json	# depth and swap number infomation
 │  adder_n4_transpiled.qasm     #  circuit before qubit mapping
 │
 └─result
